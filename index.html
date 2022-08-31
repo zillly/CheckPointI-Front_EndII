@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Card</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icones -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- formulario -->
+
+      <div class="container-form">
+        <div class="header-card">
+          <h2>Pokemon Card</h2>
+        </div>
+        <form id="form" class="form">
+          <div class="form-control">
+            <label for="titulo">Titulo</label>
+            <input
+              type="text"
+              name="titulo"
+              placeholder="Digite o nome do titulo..."
+            />
+          </div>
+
+          <div class="form-control error">
+            <label for="Descrição">Descrição</label>
+            <input type="text" name="descricao" placeholder="Descrição" />
+          </div>
+          <div class="form-control acerto">
+            <label for="tipo">Tipo</label>
+            
+
+            <div>
+              <select name="tipo" id="tipo-card">
+                <option value="" disabled selected>tipo 1</option>
+                <option value="bug">Bug</option>
+                <option value="dragon">dragon</option>
+                <option value="electric">electric</option>
+                <option value="fairy">fairy</option>
+                <option value="fighting">fighting</option>
+                <option value="fire">fire</option>
+                <option value="flying">flying</option>
+                <option value="grass">grass</option>
+                <option value="ground">ground</option>
+                <option value="ghost">ghost</option>
+                <option value="ice">ice</option>
+                <option value="normal">normal</option>
+                <option value="poison">poison</option>
+                <option value="psychic">psychic</option>
+                <option value="rock">rock</option>
+                <option value="ice">water</option>
+              </select>
+
+              <select name="tipos" id="tipo-card">
+                <option value="" dissable selected>tipo 2</option>
+                <option value="bug" >Bug</option>
+                <option value="dragon">dragon</option>
+                <option value="electric">electric</option>
+                <option value="fairy">fairy</option>
+                <option value="fighting">fighting</option>
+                <option value="fire">fire</option>
+                <option value="flying">flying</option>
+                <option value="grass">grass</option>
+                <option value="ground">ground</option>
+                <option value="ghost">ghost</option>
+                <option value="ice">ice</option>
+                <option value="normal">normal</option>
+                <option value="poison">poison</option>
+                <option value="psychic">psychic</option>
+                <option value="rock">rock</option>
+                <option value="ice">water</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-control success">
+            <label for="urlImage">URL</label>
+            <input
+              type="text"
+              name="urlImagem"
+              placeholder="Cole a URL da imagem aqui..."
+            />
+          </div>
+          <div class="inputs">
+            <input id="botao" type="button" value="Enviar">
+            <input id="limpar"type="reset" value="Limpar">
+          </div>
+          
+        </form>
+        
+      </div>
+      <!-- fim do formulario -->
+      <!-- card -->
+      <div id="card" class="card"></div>
+      <!-- card -->
+    </div>
+    
+    <!-- card fim-->
+    <script src="./scripts/popper.min.js"></script>
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/vanilla-tilt.js"></script>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>

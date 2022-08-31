@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(../img/pokemon_wallpaper01_1680.jpg);
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container-form {
+  background-color: #fff;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.header-card {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-color: aqua;
+  text-align: center;
+  padding: 5px;
+}
+
+.form-control {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#botao {
+  margin: 20px;
+  background-color: rgb(61, 61, 170);
+  border: 2px solid blue;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #eee;
+}
+#limpar {
+  margin: 20px;
+  background-color: rgb(61, 61, 170);
+  border: 2px solid blue;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #eee;
+}
+
+#form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* card */
+
+#card {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 500px;
+  background: rgba(245, 166, 35, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#card img {
+  width: 98%;
+  height: 40%;
+  margin: 2%;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: #000000;
+}
+
+#card h2 {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.divTipo {
+  width: 60%;
+  background: rgba( 255, 159, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 50px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.divTipo span {
+
+  
+  display: flex;
+  margin: 10px;
+  padding: 5px 20px;
+  padding-inline: 20px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #141313;
+}
+
+#card p {
+  width: 90%;
+  height: 180px;
+  overflow-wrap: break-word;
+  color: rgb(0, 0, 0);
+
+  
+  background: rgba( 255, 255, 255, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.cor-bug {
+  background-color: #26de81;
+}
+
+.cor-dragon {
+  background-color: #ffeaa7;
+}
+
+.cor-electric {
+  background-color: #fed330;
+}
+
+.cor-fairy {
+  background-color: #ff0069;
+}
+.cor-fighting {
+  background-color: #30336b;
+}
+.cor-fire {
+  background-color: #f0932b;
+}
+.cor-flying {
+  background-color: #81ecec;
+}
+.cor-grass {
+  background-color: #00b894;
+}
+.cor-ground {
+  background-color: #efb549;
+}
+.cor-ghost {
+  background-color: #a55eea;
+}
+.cor-ice {
+  background-color: #74b9ff;
+}
+.cor-normal {
+  background-color: #95afc0;
+}
+.cor-poison {
+  background-color: #6c5ce7;
+}
+.cor-psychic {
+  background-color: #6c5ce7;
+}
+.cor-rock {
+  background-color: #2d3436;
+}
+.cor-water {
+  background-color: #0190ff;
+}
